@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.spacing{
+    transition: 1s ease-in-out;
+    height:10px;
+    position: relative;
+}
+.spacing .showp{
+    display:none;
+}
+.spacing:hover {
+    height: fit-content;
+}
+.spacing:hover .showp{
+    display:flex;
+}
+
+* {
+    background-color: gold;
+    color: darkblue;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    margin: 10px 100px 10px;
+}
+
+.pinkBackground {
+    background-color: palevioletred;
+}
+
+#mainTitle {
+    color: palegreen;
+    background-color: darkblue;
+}
