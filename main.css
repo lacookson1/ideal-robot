@@ -2,20 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-.spacing{
-    transition: 1s ease-in-out;
-    height:10px;
-    position: relative;
-}
-.spacing .showp{
-    display:none;
-}
-.spacing:hover {
-    height: fit-content;
-}
-.spacing:hover .showp{
-    display:flex;
-}
 
 * {
     background-color: gold;
@@ -42,4 +28,21 @@ p {
 #mainTitle {
     color: palegreen;
     background-color: darkblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    border: solid 3px violet;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: violet;
 }
